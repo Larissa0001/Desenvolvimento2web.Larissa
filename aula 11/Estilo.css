@@ -1,0 +1,15 @@
+@charset "utf-8";
+body {
+ background-color: #e2bdf1;
+ color: #000000;
+ font-family: Arial, Verdana, sans-serif;
+}
+#primeiro_nome {
+ background-color: rgb(113, 88, 126);
+}
+p#sobrenome {
+ background-color: rgb(113,88,126);
+}
+body {
+ color: rgb(0, 0, 0)
+}
