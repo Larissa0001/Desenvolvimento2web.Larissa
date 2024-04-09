@@ -1,0 +1,18 @@
+section{
+    border: 1px solid plum;
+    width: 100%;
+    float: left;
+}
+div{
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+.esquerda{
+    float: left;
+    background: purple;
+}
+.direita{
+    float: right;
+    background: cyan;
+}
