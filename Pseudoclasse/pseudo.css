@@ -1,0 +1,17 @@
+.categorias {
+    margin-top: 20px;
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 15px;
+   }
+   .categorias h2 {
+    text-align: center;
+   }
+   .categorias ul {
+    padding: 15px;
+    list-style: none;
+   }
+   .categorias li {
+    padding-bottom: 8px;
+    border-bottom: dashed 1px #333;
+   }
