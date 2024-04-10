@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoclasses</title>
+    <style>
+        .mylist li:first-child {
+            background: greenyellow;
+        }
+
+        .mylist li:nth-child(3) {
+            background: grey;
+        }
+
+        .mylist li:last-child {
+            background: yellow;
+        }
+
+        li::first-letter{ 
+            font-size: 150%;
+    }
+
+        p::before {
+            content: '(Apenas exemplo) ';
+        }
+
+        p::first-line {
+            background-color: rgb(255, 127, 127);
+        }
+
+        ::selection {
+            color: rgb(255, 0, 0);
+            background-color: blanchedalmond;
+        }
+
+        p::selection {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <p>Lista de Nomes Comuns:</p>
+        <ol class="mylist">
+            <li>Anna</li>
+            <li>Maria</li>
+            <li>Leticia</li>
+            <li>Luiza</li>
+            <li>Sabrina</li>
+        </ol>
+
+    </section>
+</body>
+
+</html>
