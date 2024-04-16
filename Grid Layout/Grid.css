@@ -1,0 +1,17 @@
+@charset "utf-8";
+.wrapper {
+ display: grid;
+ grid-template-columns: 70% 30%;
+ grid-gap: 1em;
+ overflow-x: hidden;
+}
+.wrapper>article {
+    background: #9bfff7;
+    padding: 2em;
+    color: #405352;
+   }
+   .wrapper>article:nth-child(odd) {
+    background: rgb(255, 153, 127);
+    text-align: center;
+    color:rgb(56, 56, 56);
+   }
