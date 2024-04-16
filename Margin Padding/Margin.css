@@ -1,0 +1,21 @@
+* { margin: 5;
+    padding:2;
+    border: currentColor;
+    top: 2; }
+
+    body { background-color: #006a85;
+    color: #000000;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0; }
+
+    a { text-decoration: none;
+        color: black; }
+
+        .btn { background-color: #000e88;
+            color: #ffffff;
+            padding: 10px 15px;
+            border: none; }
+
+            .container { width: 80%;
+                margin: 20px 30px; }
